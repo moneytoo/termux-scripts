@@ -1,5 +1,7 @@
 # termux-scripts
 
+For more info, pics, tips: https://brouken.com/2018/01/install-nzbget-sabnzbd-termux-android/
+
 ## Install SABnzbd
 
 ```
