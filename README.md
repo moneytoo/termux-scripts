@@ -12,4 +12,4 @@ apt-get update && apt-get --assume-yes install wget && wget https://raw.githubus
 apt-get update && apt-get --assume-yes install wget && wget https://raw.githubusercontent.com/moneytoo/termux-scripts/master/nzbget/nzbget.sh -O - | bash
 ```
 
-PR sent for this package to be included in the Termux repository termux/termux-packages#2017
+PR sent for this package to be included in the Termux repository https://github.com/termux/termux-packages/pull/2017
