@@ -1,7 +1,9 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-apt-get --assume-yes install libxml2 p7zip unrar
-dpkg -i nzbget_19.1_`dpkg --print-architecture`.deb
+apt-get --assume-yes install wget libxml2 p7zip unrar
+PKG=nzbget_19.1_`dpkg --print-architecture`.deb
+wget https://raw.githubusercontent.com/moneytoo/termux-scripts/master/nzbget/$PKG -O ~/$PKG
+dpkg -i ~/$PKG
 
 
 #### Tasker ####
